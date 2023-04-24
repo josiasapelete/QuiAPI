@@ -40,13 +40,13 @@
         "answer": "Fils de Dieu"
     },
     {
-        "id": 5,
-        "question": "Qui est Jesus Christ de Nazareth ?",
+        "id": "5",
+        "question": "Qui est  Christ de Nazareth ?",
         "options": [
             " prophète",
             "  Ange",
-            "Fils de Dieu"
+            " Jesus"
         ],
-        "answer": "Fils de Dieu"
+        "answer": " Jesus"
     }
 ]

@@ -43,7 +43,7 @@ const createStats = async (req, res, next) => {
     }
 };
 
-router.route("/api/v1/stats").post(createStats);
+router.route("/api/").post(createStats);
 
 //PUT Method
 const updateStats = async (req, res, next) => {
@@ -88,9 +88,11 @@ const deleteStats = async (req, res, next) => {
     try {
         const data = fs.readFileSync(statsFilePath);
         const stats = JSON.parse(data);
+        console.log(stats)
         const playerStats = stats.find(
             (player) => player.id === Number(req.params.id)
         );
+        console.log(playerStats)
         if (!playerStats) {
             const err = new Error("Question  not found");
             err.status = 404;
@@ -113,7 +115,6 @@ const deleteStats = async (req, res, next) => {
 };
 
 router
-    .route("/api:id")
-    .get(getStats)
+    .route("/api/:id")
     .put(updateStats)
     .delete(deleteStats);
