@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "Comment Dieu a-t-il parlé à nos ancêtres autrefois, selon Hébreux 1:1 ?",
+        "options": [
+            "Par les anges",
+            "Par les prophètes",
+            "Par son Fils"
+        ],
+        "answer": "Par les prophètes"
+    },
+    {
+        "id": 2,
+        "question": "Dans Hébreux 1:2, comment Dieu a-t-il parlé à son peuple dans ces derniers temps ?",
+        "options": [
+            "Par les anges",
+            "Par les prophètes",
+            "Par son Fils"
+        ],
+        "answer": "Par son Fils"
+    },
+    {
+        "id": 3,
+        "question": "Selon Hébreux 1:3, comment Jésus est-il décrit par rapport aux anges ?",
+        "options": [
+            "Il est égal aux anges.",
+            "Il est inférieur aux anges.",
+            "Il est supérieur aux anges."
+        ],
+        "answer": "Il est supérieur aux anges."
+    },
+    {
+        "id": "4",
+        "question": "Qui est Jesus Christ ?",
+        "options": [
+            " prophète",
+            "  Ange",
+            "Fils de Dieu"
+        ],
+        "answer": "Fils de Dieu"
+    },
+    {
+        "id": 5,
+        "question": "Qui est Jesus Christ de Nazareth ?",
+        "options": [
+            " prophète",
+            "  Ange",
+            "Fils de Dieu"
+        ],
+        "answer": "Fils de Dieu"
+    }
+]
