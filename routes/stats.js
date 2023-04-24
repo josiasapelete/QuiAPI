@@ -81,7 +81,7 @@ const updateStats = async (req, res, next) => {
     }
 };
 
-router.route("/api:id").get(getStats).put(updateStats);
+router.route("/api/:id").get(getStats).put(updateStats);
 
 //DELETE Method
 const deleteStats = async (req, res, next) => {
@@ -116,5 +116,6 @@ const deleteStats = async (req, res, next) => {
 
 router
     .route("/api/:id")
+    .get(getStats)
     .put(updateStats)
     .delete(deleteStats);
